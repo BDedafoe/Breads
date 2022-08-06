@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 const { Schema } = mongoose 
+const Baker = require('./baker')
 
 const breadSchema = new Schema({
   name: { type: String, required: true },
